@@ -8,13 +8,17 @@
 .mavzu:hover{
   color: rgb(37, 100, 216);
   cursor: pointer;
-  padding: 0 20px;
+  /* padding: 0 20px; */
 }
 .border-top{
     color: white !important
 }
 .nav-link:hover{
     color: rgb(37, 100, 216) !important;
+}
+.carousel-item  img{
+    height: 500px !important;
+    object-fit: cover !important;
 }
 /* start footer */
 .col-md-4 img{
@@ -24,7 +28,10 @@
 .col-md-4 [width="150"]{
     width: 150px;
 }
-
+.col-xl-8 ul{
+list-style: none;
+text-decoration: none;
+}
 .foter-text
 {
     color: black;
